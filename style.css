@@ -104,3 +104,58 @@ button.aktiivinen {
   margin-top: 8px;
   text-align: right;
 }
+
+/* --- RESPONSIIIVISUUS --- */
+
+/* Puhelimet (max 480px) */
+@media (max-width: 480px) {
+
+  body {
+    padding: 20px 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .pelivalinta {
+    gap: 8px;
+  }
+
+  .pelivalinta button {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .kortti {
+    padding: 18px 16px;
+    border-radius: 14px;
+  }
+
+  .kysymys {
+    font-size: 18px;
+    line-height: 1.35;
+  }
+
+  .ensisijainen {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
+
+/* Pienet tabletit (max 768px) */
+@media (max-width: 768px) {
+
+  body {
+    padding: 30px 16px;
+  }
+
+  .kortti {
+    padding: 22px 18px;
+  }
+
+  .kysymys {
+    font-size: 19px;
+  }
+}
