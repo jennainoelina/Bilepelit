@@ -1,3 +1,5 @@
+/* --- PERUSASUT --- */
+
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #111827;
@@ -6,6 +8,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 40px 16px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -44,13 +48,14 @@ button.aktiivinen {
 }
 
 .kortti {
-  max-width: 600px;
   width: 100%;
+  max-width: 600px;
   background: #020617;
   border-radius: 16px;
   padding: 24px 20px;
   box-shadow: 0 18px 45px rgba(0,0,0,0.5);
   border: 1px solid #1f2937;
+  box-sizing: border-box;
 }
 
 .pilleri {
@@ -78,12 +83,6 @@ button.aktiivinen {
   margin-bottom: 20px;
 }
 
-.alaotsikko {
-  font-size: 13px;
-  color: #9ca3af;
-  margin-bottom: 16px;
-}
-
 .toiminnot {
   display: flex;
   justify-content: flex-end;
@@ -98,39 +97,36 @@ button.aktiivinen {
   background: #059669;
 }
 
-.vihje {
-  font-size: 12px;
-  color: #6b7280;
-  margin-top: 8px;
-  text-align: right;
-}
-
 /* --- RESPONSIIIVISUUS --- */
 
 /* Puhelimet (max 480px) */
-@media (max-width: 200px) {
+@media (max-width: 480px) {
 
   body {
-    padding: 20px 12px;
+    padding: 16px;
+    align-items: stretch; /* EI keskitetä koko bodyä */
   }
 
   h1 {
-    font-size: 24px;
-    margin-bottom: 16px;
+    font-size: 22px;
+    margin-bottom: 14px;
   }
 
   .pelivalinta {
-    gap: 8px;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .pelivalinta button {
-    padding: 8px 14px;
-    font-size: 13px;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
   }
 
   .kortti {
     padding: 18px 16px;
-    border-radius: 14px;
+    border-radius: 12px;
+    max-width: 100%;
   }
 
   .kysymys {
@@ -138,21 +134,22 @@ button.aktiivinen {
     line-height: 1.35;
   }
 
-  .ensisijainen {
-    padding: 10px 16px;
-    font-size: 14px;
+  #uusiKysymysNappi {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
   }
 }
 
-/* Pienet tabletit (max 768px) */
+/* Tabletit (max 768px) */
 @media (max-width: 768px) {
 
   body {
-    padding: 30px 16px;
+    padding: 24px 16px;
   }
 
   .kortti {
-    padding: 22px 18px;
+    padding: 20px 18px;
   }
 
   .kysymys {
