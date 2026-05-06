@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Party Games</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Party Games</h1>
+
+  <div class="pelivalinta">
+    <button data-peli="en_ikinä" class="aktiivinen">En ole koskaan</button>
+    <button data-peli="kuka">Kuka todennäköisimmin</button>
+    <button data-peli="liput">Green flag vai red flag</button>
+  </div>
+
+  <div class="kortti">
+    <div class="pilleri">
+      <span class="pilleri-piste"></span>
+      <span id="peliOtsikko">En ole koskaan...</span>
+    </div>
+
+    <div class="kysymys" id="kysymysTeksti"></div>
+
+    <div class="toiminnot">
+      <button class="ensisijainen" id="uusiKysymysNappi">SEURAAVA</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
