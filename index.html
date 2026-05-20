@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,58 @@
 </head>
 
 <body>
+
   <h1>Party Games</h1>
 
   <div class="pelivalinta">
-    <button data-peli="en_ikinä" class="aktiivinen">En ole koskaan</button>
-    <button data-peli="kuka">Kuka todennäköisimmin</button>
-    <button data-peli="liput">Green flag vai red flag</button>
+    <button data-peli="en_ikinä" class="aktiivinen">
+      En ole koskaan
+    </button>
+
+    <button data-peli="kuka">
+      Kuka todennäköisimmin
+    </button>
+
+    <button data-peli="liput">
+      Green flag vai red flag
+    </button>
+
+    <button data-peli="tehtävät">
+      Tehtävät
+    </button>
+
+    <button data-peli="sekoitus">
+      Sekoitus
+    </button>
   </div>
 
   <div class="kortti">
+
     <div class="pilleri">
       <span class="pilleri-piste"></span>
-      <span id="peliOtsikko">En ole koskaan...</span>
+
+      <span id="peliOtsikko">
+        Never have I ever
+      </span>
     </div>
 
-    <div class="kysymys" id="kysymysTeksti"></div>
+    <div id="peliKuvaus" class="kuvaus">
+      Nostakaa käsi jos olette tehneet tämän.
+    </div>
+
+    <div class="kysymys" id="kysymysTeksti">
+      Paina "SEURAAVA" saadaksesi kortin.
+    </div>
 
     <div class="toiminnot">
-      <button class="ensisijainen" id="uusiKysymysNappi">SEURAAVA</button>
+      <button class="ensisijainen" id="uusiKysymysNappi">
+        SEURAAVA
+      </button>
     </div>
 
   </div>
 
   <script src="script.js"></script>
+
 </body>
 </html>
