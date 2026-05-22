@@ -174,7 +174,7 @@ const meta = {
 
   en_ikinä: {
     otsikko: "Never have I ever",
-    kuvaus: "Nostakaa käsi jos olette tehneet tämän."
+    kuvaus: "Ota hörppy, jos olet tehnyt tämän."
   },
 
   kuka: {
