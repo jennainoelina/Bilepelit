@@ -41,6 +41,8 @@ const kysymykset = {
   ],
 
   tehtävät: [
+    "Valitse pari kenen kädet kahlitaan käsiraudoilla toisiinsa kahden kierroksen ajaksi.",
+    "Valitse pelaaja, jonka kädet sidotaan selän taakse 15min ajaksi. Vierustoveri juottaa tarvittaessa.",
     "Katso toista silmiin 30 sekuntia puhumatta ja nauramatta. Häviäjä juo.",
     "Kerro ja tarvittaessa selitä inside-vitsi, joka sinulla on kumppanisi kanssa. Jos ei ole, juo 2 hörppyä.",
     "Kerro kumppanille jokin rohkea toive tulevaisuudesta teidän suhteenne kannalta.",
