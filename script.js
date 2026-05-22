@@ -184,7 +184,7 @@ const meta = {
 
   liput: {
     otsikko: "Green flag vai red flag",
-    kuvaus: "Päättäkää yhdessä onko tämä green vai red flag."
+    kuvaus: "Äänestäkää, onko green flag vai red flag. Häviäjät juovat."
   },
 
   tehtävät: {
